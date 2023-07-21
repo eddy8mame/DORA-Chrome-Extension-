@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Favorit;
+  src: url()
+}
+
+body {
+
+
+  
+}
+
+
+.contentHolder {
+  display: flex;
+  align-items: center;
+  object-fit: contain;
+  height: 300px;
+  width: 300px;
+
+  border: 1px solid black;
+  
+}
+
+
+.Header {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid black;
+}
+
+._AddToFolder button {
+  width: 100%;
+}
+
+.Saved_Details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.help-cursor {
+  cursor: help;
+}
+
+.help-button-active {
+  /* Add styling for the active help button */
+  color: blue;
+  border: 2px solid blue;
+}
+
+#product {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+  border: 2px solid lavender;
+}
+.image_container {
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+}
+
+#product_image {
+
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+
+  border-radius: 5px;
+  
+}
+
+#product_info {
+  display: flex;
+  flex-direction: column;
+}
+
+#price_details {
+  display: flex;
+  flex-direction: row;
+}
+
+#go-to {
+  width: 100%;
+  background-color: lavender;
+  border: none;
+  box-shadow: inset 5em 1em lavender;
+}

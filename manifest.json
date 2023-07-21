@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Dora",
+  "description": "Track your finds across the internet.",
+  "version": "1.0",  
+  "action": {
+    "default_title": "Click to show an alert",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting", "tabGroups", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+  }
